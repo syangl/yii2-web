@@ -33,22 +33,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="TODO:index.html">GOOD</a>
+        <a class="navbar-brand" href="/advanced/frontend/web/">GOOD</a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="dropdown active">
-            <a href="TODO:index.html">Home</a>
+            <a href="/advanced/frontend/web/">Home</a>
           </li>
-          <li><a href="TODO:">News</a></li>
-          <li><a href="TODO:">Questions</a></li>
-          <li><a href="TODO:">Message Board</a></li>
-          <li><a href="TODO:">Documents</a></li>
+          <li><a href="/advanced/frontend/web/index.php?r=login/login">News</a></li>
+          <li><a href="/advanced/frontend/web/index.php?r=login/login">Questions</a></li>
+          <li><a href="/advanced/frontend/web/index.php?r=login/login">Message Board</a></li>
+          <li><a href="/advanced/frontend/web/index.php?r=login/login">Documents</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="/advanced/frontend/web/index.php?r=site/signup">Signup</a></li>
-              <li><a href="TODO:">Login</a></li>
+              <li><a href="/advanced/frontend/web/index.php?r=account/create">Signup</a></li>
+              <li><a href="/advanced/frontend/web/index.php?r=login/login">Login</a></li>
+              <li><a href="/advanced/frontend/web/">Logout</a></li>
             </ul>
           </li>
         </ul>

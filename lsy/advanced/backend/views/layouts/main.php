@@ -1,80 +1,109 @@
-<?php
-
-/* @var $this \yii\web\View */
-/* @var $content string */
-
-use backend\assets\AppAsset;
-use common\widgets\Alert;
-use yii\bootstrap4\Breadcrumbs;
-use yii\bootstrap4\Html;
-use yii\bootstrap4\Nav;
-use yii\bootstrap4\NavBar;
-
-AppAsset::register($this);
-?>
-<?php $this->beginPage() ?>
-<!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>" class="h-100">
+<!-- <!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="statics/assets/css/layui.css">
+    <link rel="stylesheet" href="statics/assets/css/login.css">
+    <link rel="icon" href="../favicon.ico">
+    <title>管理后台</title>
 </head>
-<body class="d-flex flex-column h-100">
-<?php $this->beginBody() ?>
+<body class="login-wrap">
+    <div class="login-container">
+        <form class="login-form">
+            <h2 align="center"><b>Login</b></h2>
+            <div class="input-group">
+                <input type="text" id="username" class="input-field">
+                <label for="username" class="input-label">
+                    <span class="label-title">用户名</span>
+                </label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" class="input-field">
+                <label for="password" class="input-label">
+                    <span class="label-title">密码</span>
+                </label>
+            </div>
+            <button type="button" class="login-button">登录<i class="ai ai-enter"></i></button>
+        </form>
+    </div>
+</body>
+<script src="statics/assets/layui.js"></script>
+<script src="statics/index.js" data-main="login"></script>
+</html> -->
 
-<header>
-    <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar navbar-expand-md navbar-dark bg-dark fixed-top',
-        ],
-    ]);
-    $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-    ];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])
-            . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav'],
-        'items' => $menuItems,
-    ]);
-    NavBar::end();
-    ?>
-</header>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="statics/assets/css/layui.css">
+    <link rel="stylesheet" href="statics/assets/css/admin.css">
+    <link rel="icon" href="../favicon.ico">
+    <title>深蓝色网站后台管理系统layui框架模板|AdminPro</title>
+</head>
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header custom-header">
+            
+            <ul class="layui-nav layui-layout-left">
+                <li class="layui-nav-item slide-sidebar" lay-unselect>
+                    <a href="javascript:;" class="icon-font"><i class="ai ai-menufold"></i></a>
+                </li>
+            </ul>
 
-<main role="main" class="flex-shrink-0">
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">点击这里登录</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="TODO:链接Login控制器">Login</a></dd>
+                        <dd><a href="">Logout</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+
+        <div class="layui-side custom-admin">
+            <div class="layui-side-scroll">
+
+                <div class="custom-logo">
+                    <img src="statics/assets/images/logo.png" alt=""/>
+                    <h1>Admin Pro</h1>
+                </div>
+                <ul id="Nav" class="layui-nav layui-nav-tree">
+                    <li class="layui-nav-item">
+                        <a href="javascript:;">
+                            <i class="layui-icon">&#xe609;</i>
+                            <em>主页</em>
+                        </a>
+                        <!-- <dl class="layui-nav-child">
+                            <dd><a href="statics/login.html">控制台</a></dd>
+                        </dl> -->
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- TODO:替换成控制器返回视图页面 -->
         <?= $content ?>
-    </div>
-</main>
 
-<footer class="footer mt-auto py-3 text-muted">
-    <div class="container">
-        <p class="float-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
-        <p class="float-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
+        <div class="layui-body">
+             <div class="layui-tab app-container" lay-allowClose="true" lay-filter="tabs">
+                <ul id="appTabs" class="layui-tab-title custom-tab"></ul>
+                <div id="appTabPage" class="layui-tab-content"></div>
+            </div>
+        </div>
 
-<?php $this->endBody() ?>
+        <div class="layui-footer">
+            <p>© 2018 下载模板请认准：<a href="https://www.php.cn/xiazai/code/" target="_blank">PHP中文网</a></p>
+        </div>
+
+        <div class="mobile-mask"></div>
+    </div>
+    <script src="statics/assets/layui.js"></script>
+    <script src="statics/index.js" data-main="home"></script>
 </body>
 </html>
-<?php $this->endPage();
