@@ -1,0 +1,161 @@
+2023-02-07 14:30:01 [127.0.0.1][-][m5oem1dks01mgnsscgqps8dbv6][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php:698
+Stack trace:
+#0 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(698): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), NULL)
+#1 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(624): yii\db\Connection->createPdoInstance()
+#2 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(1015): yii\db\Connection->open()
+#3 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(1002): yii\db\Connection->getMasterPdo()
+#4 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#5 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#6 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('user')
+#10 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#11 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#12 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#13 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#16 D:\xampp2\htdocs\yii2_2022\common\models\User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#17 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(73): common\models\User::findByUsername('root')
+#18 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#19 [internal function]: common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#20 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#21 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#22 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#23 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(58): yii\base\Model->validate()
+#24 D:\xampp2\htdocs\yii2_2022\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#25 [internal function]: backend\controllers\SiteController->actionLogin()
+#26 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#27 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#28 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#29 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#30 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 D:\xampp2\htdocs\yii2_2022\backend\web\index.php(17): yii\base\Application->run()
+#32 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php:635
+Stack trace:
+#0 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(1015): yii\db\Connection->open()
+#1 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Connection.php(1002): yii\db\Connection->getMasterPdo()
+#2 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#3 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#4 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('user')
+#8 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#9 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#10 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#11 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#14 D:\xampp2\htdocs\yii2_2022\common\models\User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#15 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(73): common\models\User::findByUsername('root')
+#16 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#17 [internal function]: common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#18 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#19 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#20 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#21 D:\xampp2\htdocs\yii2_2022\common\models\LoginForm.php(58): yii\base\Model->validate()
+#22 D:\xampp2\htdocs\yii2_2022\backend\controllers\SiteController.php(78): common\models\LoginForm->login()
+#23 [internal function]: backend\controllers\SiteController->actionLogin()
+#24 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#25 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#26 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#27 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#28 D:\xampp2\htdocs\yii2_2022\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 D:\xampp2\htdocs\yii2_2022\backend\web\index.php(17): yii\base\Application->run()
+#30 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'yii2advanced'
+)
+
+2023-02-07 14:30:01 [127.0.0.1][-][m5oem1dks01mgnsscgqps8dbv6][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'eB-iplsP4UPoYq3O6itZFzw06YAlAJSe9b47vCAnP4IKfOfKAT6KLrcN45ytQGAlWHWZ6V1pxqqx-XCOdhAJww=='
+    'LoginForm' => [
+        'username' => 'root'
+        'password' => 'root'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'kohm75cu025bqgf829r4jjchk5'
+    '_csrf-frontend' => '2e9db58a990cd4bd6a5c3872823afb27da2ea64c43d0785a14a48ec1f6a6a34aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"t9jqJ9NNtz-rgYY0q4786A5SsTUwRF4I\";}'
+    'advanced-backend' => 'm5oem1dks01mgnsscgqps8dbv6'
+    '_csrf-backend' => 'fda9ffe8688e8c2763f8dc4ed0404f8ea20f53e5538e87a58c15fe51095eef7fa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"rcElZ1km_oNRGk92dApixiR4DGK2V76A\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://127.0.0.1:801/yii2_2022/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp2/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp2/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1:801'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '234'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not_A Brand\";v=\"99\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"109\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://127.0.0.1:801'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1:801/yii2_2022/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=kohm75cu025bqgf829r4jjchk5; _csrf-frontend=2e9db58a990cd4bd6a5c3872823afb27da2ea64c43d0785a14a48ec1f6a6a34aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22t9jqJ9NNtz-rgYY0q4786A5SsTUwRF4I%22%3B%7D; advanced-backend=m5oem1dks01mgnsscgqps8dbv6; _csrf-backend=fda9ffe8688e8c2763f8dc4ed0404f8ea20f53e5538e87a58c15fe51095eef7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22rcElZ1km_oNRGk92dApixiR4DGK2V76A%22%3B%7D'
+    'PATH' => 'D:\\Program Files (x86)\\splint\\splint-3.0.1.6\\bin;D:\\xampp\\mysql\\bin;D:\\xampp\\mysql;D:\\Epan\\apache-maven-3.6.1\\bin;D:\\Epan\\ziliao\\hadoop\\windows\\hadoop-3.1.0\\bin;D:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\Program Files\\Bandizip\\;D:\\Program Files\\Java\\jdk1.8.0_333\\bin;D:\\Program Files\\Java\\jdk1.8.0_333\\jre\\bin;D:\\Program Files\\Java\\jre1.8.0_333\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Program Files\\nodejs\\;D:\\xampp2\\php;C:\\Users\\yanhuan\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Users\\yanhuan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\yanhuan\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 Server at 127.0.0.1 Port 801</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '801'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp2/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp2/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp2/htdocs/yii2_2022/backend/web/index.php'
+    'REMOTE_PORT' => '19539'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yii2_2022/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yii2_2022/backend/web/index.php'
+    'PHP_SELF' => '/yii2_2022/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1675776601.0503
+    'REQUEST_TIME' => 1675776601
+]
