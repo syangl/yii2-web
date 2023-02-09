@@ -55,7 +55,17 @@ $this->params['breadcrumbs'][] = $this->title;
           <li><a href="TODO:">News</a></li>
           <li><a href="TODO:">Questions</a></li>
           <li><a href="TODO:">Message Board</a></li>
-          <li><a href="TODO:">Documents</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="statics\doc1.html">需求文档</a></li>
+              <li><a href="statics\doc2.html">设计文档</a></li>
+              <li><a href="statics\doc3.html">实现文档</a></li>
+              <li><a href="statics\doc4.html">用户手册</a></li>
+              <li><a href="statics\doc5.html">部署文档</a></li>
+              <li><a href="statics\doc6.html">项目展示PPT</a></li>
+            </ul>
+          </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -84,7 +94,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="container sinfo">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h4><b>Welcome</b>!</h4>
+        <h4><b>Welcome</b>! Now you can use our services.</h4>
       </div>
     </div>
     <!-- /row -->

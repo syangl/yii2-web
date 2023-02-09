@@ -43,10 +43,21 @@
           <li><a href="/advanced/frontend/web/index.php?r=login/login">News</a></li>
           <li><a href="/advanced/frontend/web/index.php?r=login/login">Questions</a></li>
           <li><a href="/advanced/frontend/web/index.php?r=login/login">Message Board</a></li>
-          <li><a href="/advanced/frontend/web/index.php?r=login/login">Documents</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="statics\doc1.html">需求文档</a></li>
+              <li><a href="statics\doc2.html">设计文档</a></li>
+              <li><a href="statics\doc3.html">实现文档</a></li>
+              <li><a href="statics\doc4.html">用户手册</a></li>
+              <li><a href="statics\doc5.html">部署文档</a></li>
+              <li><a href="statics\doc6.html">项目展示PPT</a></li>
+            </ul>
+          </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
             <ul class="dropdown-menu">
+              <li><a href="/advanced/backend/web/">切换至后台</a></li>
               <li><a href="/advanced/frontend/web/index.php?r=account/create">Signup</a></li>
               <li><a href="/advanced/frontend/web/index.php?r=login/login">Login</a></li>
               <li><a href="/advanced/frontend/web/">Logout</a></li>

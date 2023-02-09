@@ -63,8 +63,8 @@ $this->title = 'My Yii Application';
   <!-- Call To Action -->
   <div id="cta">
     <div class="container centered">
-      <h3>Welcome to our new corporate site.</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <h3>Welcome to our team site.</h3>
+      <p>This is our team work display. You need to start with logining first. Then you can see our Documents in Menu.</p>
       <br>
       
     </div>
@@ -80,37 +80,53 @@ $this->title = 'My Yii Application';
       <br>
       <br>
       <div class="col-lg-3">
+        <p>成员1</p>
         <p><img src="statics/img/icons/touch.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p>介绍内容</p>
+        <li><a href="/advanced/data/personal/lsy/作业1(2013458_刘嗣旸).docx" download>个人作业1下载</a></li>
+        <li><a href="/advanced/data/personal/lsy/作业2(2013458_刘嗣旸).docx" download>个人作业2下载</a></li>
+        <li><a href="/advanced/data/personal/lsy/作业3(2013458_刘嗣旸).docx" download>个人作业3下载</a></li>
+
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
+        <p>成员2</p>
         <p><img src="statics/img/icons/spray.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p>介绍内容</p>
+        <li><a href="TODO:" download>个人作业1下载</a></li>
+        <li><a href="TODO:" download>个人作业2下载</a></li>
+        <li><a href="TODO:" download>个人作业3下载</a></li>
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
+        <p>成员3</p>
         <p><img src="statics/img/icons/rocket.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+        <p>介绍内容</p>
+        <li><a href="TODO:" download>个人作业1下载</a></li>
+        <li><a href="TODO:" download>个人作业2下载</a></li>
+        <li><a href="TODO:" download>个人作业3下载</a></li>
         
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
+        <p>成员4</p>
         <p><img src="statics/img/icons/pencil.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+        <p>介绍内容</p>
+        <li><a href="TODO:" download>个人作业1下载</a></li>
+        <li><a href="TODO:" download>个人作业2下载</a></li>
+        <li><a href="TODO:" download>个人作业3下载</a></li>
         
       </div>
       <!-- col-lg-3 -->
-
+      
     </div>
     <!-- /row -->
     <br>
     <hr>
+    <p align="center" ><a href="/advanced/data/team/TODO:" download>团队作业下载</a></p>
   </div>
   <!-- /container -->
 </div>
