@@ -3,15 +3,15 @@ namespace frontend\controllers;
 
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
-use frontend\models\newscom;
+use frontend\models\newscom2;
 
-$newscom= new newscom();
+$newscom2= new newscom2();
 // $newscom->id=6;
-$newscom->content=$_POST["content"];
-$newscom->date=date('Y-m-d h:i:s', time()); 
-$data=$newscom->insert();
-$sql="select*from newscom";
-$r=newscom::findBySql($sql)->asArray()->all();
+$newscom2->content=$_POST["content"];
+$newscom2->date=date('Y-m-d h:i:s', time()); 
+$data=$newscom2->insert();
+$sql="select*from newscom2";
+$r=newscom2::findBySql($sql)->asArray()->all();
 ?>
 
     <div class="container">

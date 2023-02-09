@@ -133,7 +133,19 @@ a:hover{  color:#b20509; }
 
     </td>
   </tr>
-  
+  <div class="add">
+ <div class="cont">
+<?php
+echo '<br/>';
+?>
+<form method="post" action="/yii2_2022/frontend/web/index.php?r=home/newscomment2">
+<p align="center"><span style="font-size: 30px">一起来评论吧！</span></p>
+<p align="center"><textarea cols="100" rows="6" name="content"></textarea></br></br></p>
+<p align="center"><span style="font-size: 30px"><input type="submit" value="发送！" class="sub"><input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/></span></p>
+ </form>
+</table>
+ </div>
+ </div>
 
     
     <!--页脚-->

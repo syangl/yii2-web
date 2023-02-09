@@ -133,7 +133,21 @@ a:hover{  color:#b20509; }
     </td>
   </tr>
   
-    
+  <div class="add">
+ <div class="cont">
+<?php
+echo '<br/>';
+?>
+<form method="post" action="/yii2_2022/frontend/web/index.php?r=home/newscomment">
+<p align="center"><span style="font-size: 30px">一起来评论吧！</span></p>
+<p align="center"><textarea cols="100" rows="6" name="content"></textarea></br></br></p>
+<p align="center"><span style="font-size: 30px"><input type="submit" value="发送！" class="sub"><input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/></span></p>
+ </form>
+</table>
+ </div>
+ </div>
+ 
+ 
     <!--页脚-->
 <span class="cms_block_span">
 
@@ -143,23 +157,16 @@ a:hover{  color:#b20509; }
     
     <table width="1100" border="0" align="center" cellpadding="0" cellspacing="0">
  
-</table>
 
-    </td>
+<!--主体 end-->
+
+</td>
   </tr>
 </table>
 </span>
 </div>
-<!--主体 end-->
 
-<div class="add">
- <div class="cont">
- 
- <form method="post" action="/yii2_2022/frontend/web/index.php?r=home/addnews">
- 内容：<textarea cols="30" rows="5" name="content"></textarea></br></br>
- <input type="submit" value="添加" class="sub"><input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/>
- </form>
- </div>
- </div>
 </body></html>
+
+    
 <!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2023-02-08 14:53:33" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->

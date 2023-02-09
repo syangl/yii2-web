@@ -68,4 +68,19 @@ class HomeController extends Controller
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
+    public function actionNewscomment()
+    {
+        return $this->render('newscomment');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNewscomment2()
+    {
+        return $this->render('newscomment2');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+
 }
