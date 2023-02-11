@@ -37,10 +37,10 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="dropdown active">
+          <li >
             <a href="/yii2_2022/frontend/web/index.php?r=site/index">Home</a>
           </li>
-          <li><a href="/yii2_2022/frontend/web/index.php?r=home/news">News</a></li>
+          <li ><a href="/yii2_2022/frontend/web/index.php?r=home/news">News</a></li>
           <li><a href="/yii2_2022/frontend/web/index.php?r=site/contact">Questions</a></li>
           <li><a href="TODO:">Message Board</a></li>
           <li><a href="TODO:">Documents</a></li>

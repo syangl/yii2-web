@@ -1,11 +1,12 @@
-<!-- <h1>$data[0][1]</h1> -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>南开学者提出高维光量子纠缠高效表征方法-南开要闻-南开大学</title>
+<title>我校三家科普基地被认定为天津市科普基地-南开要闻-南开大学</title>
 <meta name="keywords" content="">
-<meta name="description" content="　　南开新闻网讯（通讯员戴建芳）高维纠缠不仅能够实现比二维情况更多的比特编码，以增加量子信道上的通信容量，而且能够改善对噪声的鲁棒性。作为光子的一个新内禀自由度，轨道角动量（OAM）理论上具有无限维度，为解决光通信系统容量瓶颈问题提供了一条有效途径。2001年，物理学诺贝尔奖得主安东塞林格教授等首次提出...">
+<meta name="description" content="　　南开新闻网讯日前，从天津市科技局获悉，天津市科技局、市教委、市科协联合认定南开大学生物科普教育基地南开大学博物馆南开大学密码科普基地等3家科普基地为2022年天津市科普基地。至此，我校天津市科普基地数量增加到6家。
+
+　　南开大学生物科普教育基地依托生命科学学院生物实验教学中心建设。现有一个主展厅和...">
 <style>
 a,h1,h2,h3,h4,h5,h6,ul,li,body,html,div,span,button,dl,dt,dd,img,p{ border:none; margin:0; padding:0}
 ul,li,dd,dt{ list-style:none; }
@@ -64,8 +65,15 @@ a:hover{  color:#b20509; }
    .bai,.bai a:link,.bai a:hover,.bai a:visited {color: #FFF; font-family:微软雅黑;}
 }
 </style>
-    <!--头图-->
-  <table style="background:url(http://news.nankai.edu.cn/images/tou2021.png) top center no-repeat; height:200px;" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+  
+
+  
+ 
+   
+<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2021-03-11 09:19:42" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->
+
+   	<!--正文-->
+       <table style="background:url(http://news.nankai.edu.cn/images/tou2021.png) top center no-repeat; height:200px;" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
 	  <tbody><tr>
 	    <td valign="top">
         <table cellspacing="0" cellpadding="0" border="0" align="center" width="1200">
@@ -99,58 +107,78 @@ a:hover{  color:#b20509; }
         </td>
 	  </tr>
    </tbody></table>
- 
-   
-<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2021-03-11 09:19:42" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->
-
-   	<!--正文-->
-    <table style="padding-top:20px; background:#fff;  " cellspacing="0" cellpadding="0" border="0" align="center" width="1200">
-  <tbody><tr><td valign="top">
-  
   <table style="padding:0 0 0 10px; " cellspacing="0" cellpadding="0" border="0" width="100%">
   <tbody><tr>
-    <td style=" font-size:30px; font-weight:bold; text-align:center; padding:20px 0 15px; line-height:34px; ">南开学者提出高维光量子纠缠高效表征方法</td>
+    <td style=" font-size:30px; font-weight:bold; text-align:center; padding:20px 0 15px; line-height:34px; ">我校三家科普基地被认定为天津市科普基地</td>
   </tr>
   <tr>
-    <td style="text-align:center; border-bottom:1px solid #ddd; padding-bottom:15px;"><span style="margin-right:10px;">来源： 南开大学新闻网</span><span>发稿时间：2023-02-08 14:40</span></td>
+    <td style="text-align:center; border-bottom:1px solid #ddd; padding-bottom:15px;"><span style="margin-right:10px;">来源： 南开大学新闻网</span><span>发稿时间：2023-01-27 10:18</span></td>
   </tr>
   <tr><style>
   #txt p{ line-height:2em; font-size:16px; margin-bottom:15px;}
   </style>
-    <td style="padding-top:25px; padding-left:20px; padding-bottom:20px;" id="txt"><p style="text-align:left">　　<strong>南开新闻网讯</strong>（通讯员&nbsp;戴建芳）高维纠缠不仅能够实现比二维情况更多的比特编码，以增加量子信道上的通信容量，而且能够改善对噪声的鲁棒性。作为光子的一个新内禀自由度，轨道角动量（OAM）理论上具有无限维度，为解决光通信系统容量瓶颈问题提供了一条有效途径。2001年，物理学诺贝尔奖得主安东&middot;塞林格教授等首次提出利用光子OAM实现了高维量子纠缠，其不仅可以大幅度增加光子的信息携带量，还可以提高量子密钥传输的安全性，而受到了广泛关注。然而，在光子OAM的实际应用中，其挑战之一是发展高效的高维OAM纠缠态表征方法。传统的全量子态层析是获取量子态所有信息的标准技术，但其在高维系统中变得不切实际，因其所需的测量次数随维度呈指数增长。因此，非常期待能够找到有效的方法，以尽可能少的测量来表征高维纠缠态，而不引入不必要的假设。</p>
+    <td style="padding-top:25px; padding-left:20px; padding-bottom:20px;" id="txt"><p style="text-align:left">　　<strong>南开新闻网讯&nbsp;</strong>日前，从天津市科技局获悉，天津市科技局、市教委、市科协联合认定&ldquo;南开大学生物科普教育基地&rdquo;&ldquo;南开大学博物馆&rdquo;&ldquo;南开大学密码科普基地&rdquo;等3家科普基地为2022年天津市科普基地。至此，我校天津市科普基地数量增加到6家。</p>
 
-<p style="text-align:left">　　近日，南开大学物理科学学院李勇男教授研究组与南京大学王慧田教授合作，针对光子高维轨道角动量表征难题，提出了利用二维探测器实现快速非扫描的量子态层析方法，该研究成果以&ldquo;Two-Measurement&nbsp;Tomography&nbsp;of&nbsp;High-Dimensional&nbsp;Orbital&nbsp;Angular&nbsp;Momentum&nbsp;Entanglement&rdquo;为题发表在《Physical&nbsp;Review&nbsp;Letters&nbsp;》上。&nbsp;其核心思想是用二维阵列探测器取代传统的单像素探测器，基于干涉原理并结合傅里叶变换，从二维量子符合计数中解调出高维量子信息。该方法的特点是非扫描且与维度无关，对于任意维双光子OAM纠缠态，仅需两次测量即可实现高保真度的密度矩阵重构。该思想还可以拓展到其它空间模式纠缠、多光子纠缠及混合态纠缠等，为实现大容量量子通信和量子过程层析奠定了基础。未来与机器学习结合，将会为复杂情况下，如大气和光纤中的高维光量子信息应用提供更多有趣且高效的测量思路。</p>
+<p style="text-align:left">　　南开大学生物科普教育基地依托生命科学学院生物实验教学中心建设。现有一个主展厅和六个学科实验室。科普教育基地多年来积极投入高校科学营、天津市科技周等公共开放活动和专项主题活动，开展辐射各个年龄层次的科普活动。</p>
 
-<div align="center"><img border="0" height="517" src="http://news.nankai.edu.cn/pic/003/000/496/00300049649_5a20c96f.jpg" width="450" />
+<center><!-- image template start -->
+<div align="center"><img border="0" height="483" src="http://news.nankai.edu.cn/pic/003/000/496/00300049620_434412f6.png" width="751" />
 <p></p>
 </div>
+<!-- image template end--></center>
 
-<p style="text-align: center;"><!-- image template end--><span style="font-family:楷体;">图：高效光子轨道角动量纠缠表征方法示意图</span></p>
+<p style="text-align:left">　　南开大学博物馆正式成立于2014年5月，收藏各类质地的藏品1万余件，涵盖陶瓷器、青铜器、钱币、玺印、少数民族文物等十几个门类。现有两个常设展厅，分别是位于范孙楼的文物展厅和位于东方艺术大楼的书画展厅，总展示面积近1000㎡。津南校区思源堂作为文物馆新馆舍，目前正在进行展厅装饰布展工作，预计将于2023年面向公众开放。</p>
 
-<p style="text-align:left">　　本工作南开大学为第一完成单位，南开大学本科毕业生李逸和博士毕业生黄双印为共同第一作者，南开大学李勇男教授和南京大学王慧田教授为共同通讯作者。此项工作得到了国家重点研发计划项目和国家自然科学基金项目资助。</p>
+<center><!-- image template start -->
+<div align="center"><img border="0" height="520" src="http://news.nankai.edu.cn/pic/003/000/496/00300049621_0fe0a997.png" width="750" />
+<p></p>
+</div>
+<!-- image template end-->&nbsp;<!-- image template start -->
+
+<div align="center"><img border="0" height="422" src="http://news.nankai.edu.cn/pic/003/000/496/00300049622_64ce157b.png" width="750" />
+<p></p>
+</div>
+<!-- image template end--></center>
+
+<p>&nbsp;
+<p style="text-align:left">　　南开大学密码科普基地坐落在津南校区综合实验楼，展览面积约1091平方米，设有两个专题模块，展出图文展板、科普视频和相关展品。科普模块对密码的诞生与发展、密码与战争的关系、现代密码应用等进行了介绍；&ldquo;豪密&rdquo;爱国主义教育模块通过讲述周恩来与他创制的高级密码&mdash;&ldquo;豪密&rdquo;的故事来弘扬机要精神、宣传保密意识。</p>
+</p>
+
+<center><!-- image template start -->
+<div align="center"><img border="0" height="452" src="http://news.nankai.edu.cn/pic/003/000/496/00300049623_0584c153.png" width="750" />
+<p></p>
+</div>
+<!-- image template end--></center>
+
+<p style="text-align:left">　　近年来，我校积极贯彻落实习近平总书记关于科普工作的重要讲话精神，大力推动南开大学全域科普创新工作体系建设，通过举办高校科学营、全国科技活动周、科学家精神宣讲等活动持续推进科普育人工作，多个项目先后在全国科学实验展演、全国科普微视频大赛、全国科普讲解大赛中获得奖励。科普基地建设是南开大学全域科普创新工作体系的重要组成部分，此次获评天津市科普基地，为我校&ldquo;三全育人&rdquo;综合改革以及相关学科建设提供重要的平台保障。</p>
+
+<p style="text-align:left">　　此次科普基地的建设得到了科学技术研究部、校团委、实验室设备处等部门的大力协同支持。（科研部供稿）</p>
+
+<p style="text-align:left">　　</p>
 
     </td>
   </tr>
-  <div class="add">
- <div class="cont">
-<?php
-echo '<br/>';
-?>
-
+  <tr>
+    <td style="padding-top:25px; padding-right:30px; padding-bottom:20px;" align="right"><p style=" text-indent:2em; line-height:2em; font-size:16px; margin-bottom:15px;  "><span class=" hong">编辑：</span>韦承金
+    </p></td>
+  </tr>
+</tbody></table>
+</td>
+   
 </table>
- </div>
- </div>
+<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2019-05-16 11:05:15" check_sum="3bcee7cc5a424330844ab778a62d31c1]--> <table cellspacing="0" cellpadding="0" border="0" width="270"align="center">
+  
 
-<form method="post" action="/yii2_2022/frontend/web/index.php?r=home/newscomment2">
+
+<form method="post" action="/yii2_2022/frontend/web/index.php?r=home/newscomment5">
 <p align="center"><span style="font-size: 30px">一起来评论吧！</span></p>
 <p align="center"><textarea cols="100" rows="6" name="content"></textarea></br></br></p>
 <p align="center"><span style="font-size: 30px"><input type="submit" value="发送！" class="sub"><input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/></span></p>
  </form>
-    <!--页脚-->
 
 </div>
 <!--主体 end-->
 
 
 </body></html>
-<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2023-02-08 14:41:06" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->
+<!--ecms sync check [sync_thread_id="3bcee7cc5a424330844ab778a62d31c1" sync_date="2023-01-27 10:18:32" check_sum="3bcee7cc5a424330844ab778a62d31c1]-->

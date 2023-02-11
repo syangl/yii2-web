@@ -8,6 +8,7 @@ use frontend\models\news;
 $news= new news();
 $news->title=$_POST["title"];
 $news->content=$_POST["content"];
+$news->date=date('Y-m-d h:i:s', time()); 
 $data=$news->insert();
 ?>
 <p align="center"><span style="font-size: 30px">

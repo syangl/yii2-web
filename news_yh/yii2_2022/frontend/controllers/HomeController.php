@@ -82,5 +82,67 @@ class HomeController extends Controller
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-
+    public function actionShortnews()
+    {
+        return $this->render('shortnews');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNews3()
+    {
+        return $this->render('news3');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNews4()
+    {
+        return $this->render('news4');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNews5()
+    {
+        return $this->render('news5');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNews6()
+    {
+        return $this->render('news6');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNewscomment3()
+    {
+        return $this->render('newscomment3');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNewscomment4()
+    {
+        return $this->render('newscomment4');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNewscomment5()
+    {
+        return $this->render('newscomment5');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
+    public function actionNewscomment6()
+    {
+        return $this->render('newscomment6');
+        // $sql="select * from news where id=1";
+        // $r=news::findBySql($sql)->all();
+        // print_r($r);
+    }
 }
