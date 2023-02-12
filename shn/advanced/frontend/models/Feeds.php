@@ -29,8 +29,9 @@ class Feeds extends \yii\db\ActiveRecord
     {
         return [
             [['username', 'content', 'created_at'], 'required'],
+            [['content'], 'string'],
             [['created_at'], 'integer'],
-            [['username', 'content'], 'string', 'max' => 255],
+            [['username'], 'string', 'max' => 255],
         ];
     }
 
