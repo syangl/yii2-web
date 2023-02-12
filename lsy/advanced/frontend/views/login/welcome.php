@@ -1,5 +1,6 @@
 <?php
 
+use frontend\models\StaticVar;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
@@ -52,9 +53,10 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="dropdown active">
             <a href="/advanced/frontend/web/">Home</a>
           </li>
-          <li><a href="TODO:">News</a></li>
+          <li><a href="/advanced/frontend/web/index.php?r=home/news">News</a></li>
           <li><a href="TODO:">Questions</a></li>
-          <li><a href="TODO:">Message Board</a></li>
+          <!-- <li><a href="/advanced/frontend/web/index.php?r=site/feed& {{ $model->username }}">Message Board</a></li> -->
+          <li><?=HTML::a('Message Board',['feed', 'username' => $this->title], ['class' => 'btn btn-primary']) ?></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
             <ul class="dropdown-menu">

@@ -2,7 +2,10 @@
 
 namespace frontend\controllers;
 
+use frontend\models\Feeds;
+use frontend\models\FeedsForm;
 use frontend\models\ResendVerificationEmailForm;
+use frontend\models\StaticVar;
 use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
@@ -256,4 +259,5 @@ class SiteController extends Controller
             'model' => $model
         ]);
     }
+
 }
