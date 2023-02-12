@@ -1,41 +1,18 @@
-<?php
-
-use frontend\models\StaticVar;
-use yii\helpers\Html;
-use yii\widgets\DetailView;
-
-/* @var $this yii\web\View */
-/* @var $model frontend\models\Account */
-
-$this->title = $model->username;
-$this->params['breadcrumbs'][] = ['label' => 'Accounts', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
-\yii\web\YiiAsset::register($this);
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Good - Bootstrap Corporate Template</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/flat-ui/css/flat-ui.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+ <meta charset="utf-8">
+ <title></title>F
+ <style type="text/css">
+ *{margin:0px;padding:0px;}
+ body{background:#ccc;}
+ .add{width:450px;height:280px;background:#eee;float:left;}
+ .cont{width:500px;height:350px;margin-top:5px;margin-left:5px;}
+ form{margin-left:10px;padding-top:30px;}
+ .sub{width:100px;height:40px;border:1px solid #ccc;}
+ .sub:hover{background:#f90}
+ </style>
 </head>
-
 <body>
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top">
@@ -56,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <li><a href="/advanced/frontend/web/index.php?r=home/news">News</a></li>
           <li><a href="TODO:">Questions</a></li>
           <!-- <li><a href="/advanced/frontend/web/index.php?r=site/feed& {{ $model->username }}">Message Board</a></li> -->
-          <li><?=HTML::a('Message Board',['feed', 'username' => $this->title], ['class' => 'btn btn-primary']) ?></li>
+          <li><a href="/advanced/frontend/web/index.php?r=login/login">Message Board</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -81,29 +58,20 @@ $this->params['breadcrumbs'][] = $this->title;
       <!--/.nav-collapse -->
     </div>
   </div>
-  <!-- Aboutrwrap -->
-  <div id="aboutwrap">
-    <div class="container">
-      <div class="row">
-        <h1><br/> <b>欢迎</b>, <?= Html::encode($this->title) ?></h1>
-      </div>
-    </div>
-  </div>
-  <!-- /aboutrwrap -->
-
-
-  <!-- Intro Section -->
-  <div class="container sinfo">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h4><b>Welcome</b>! Now you can use our services.</h4>
-      </div>
-    </div>
-    <!-- /row -->
-    <hr>
-  </div>
-  <!-- /container -->
-
+ <div class="add">
+ <div class="cont">
+ <!-- <form action="/advanced/frontend/web/index.php?r=home/addnews" method="post">
+名字: <input type="text" name="fname">
+年龄: <input type="text" name="age">
+<input type="submit" value="提交">
+<input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/>
+</form> -->
+ <form method="post" action="/advanced/frontend/web/index.php?r=home/addnews">
+ 标题：<input type="text" name="title"></br></br>
+ 内容：<textarea cols="30" rows="5" name="content"></textarea></br></br>
+ <input type="submit" value="添加" class="sub"><input type="hidden" id="_csrf" name="<?PHP echo Yii::$app->request->csrfParam;?>" value="<?=\Yii::$app->request->csrfToken?>"/>
+ </form>
+ </div>
+ </div>
 </body>
 </html>
-
