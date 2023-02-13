@@ -5,7 +5,7 @@ use Yii;
 use yii\base\Model;
 use common\models\User;
 use yii\db\ActiveRecord;
-class news extends ActiveRecord
+class messageshow extends ActiveRecord
 {
 
 }

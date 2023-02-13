@@ -3,7 +3,7 @@ namespace frontend\controllers;
 
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
-use frontend\models\news;
+use backend\models\news;
 
 $news= new news();
 // $newscom->id=6;

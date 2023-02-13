@@ -18,13 +18,8 @@ use backend\models\SignupForm;
 use backend\models\ContactForm;
 class HomeController extends Controller
 {
-    public function actionNews()
-    {
-        return $this->render('news');
-        // $sql="select * from news where id=1";
-        // $r=news::findBySql($sql)->all();
-        // print_r($r);
-    }
+   
+
     public function actionNewsadd()
     {
         return $this->render('newsadd');
@@ -32,13 +27,7 @@ class HomeController extends Controller
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-    public function actionModifynew()
-    {
-        return $this->render('modifynew');
-        // $sql="select * from news where id=1";
-        // $r=news::findBySql($sql)->all();
-        // print_r($r);
-    }
+
     public function actionDelnew()
     {
         return $this->render('delnew');
@@ -46,20 +35,7 @@ class HomeController extends Controller
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-    public function actionNews1()
-    {
-        return $this->render('news1');
-        // $sql="select * from news where id=1";
-        // $r=news::findBySql($sql)->all();
-        // print_r($r);
-    }
-    public function actionNews2()
-    {
-        return $this->render('news2');
-        // $sql="select * from news where id=1";
-        // $r=news::findBySql($sql)->all();
-        // print_r($r);
-    }
+ 
 
     public function actionAddnews()
     {
@@ -68,19 +44,18 @@ class HomeController extends Controller
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-    public function actionNewscomment()
+    public function actionMessshow()
     {
-        return $this->render('newscomment');
+        return $this->render('messshow');
         // $sql="select * from news where id=1";
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-    public function actionNewscomment2()
+    public function actionShowmess()
     {
-        return $this->render('newscomment2');
+        return $this->render('showmess');
         // $sql="select * from news where id=1";
         // $r=news::findBySql($sql)->all();
         // print_r($r);
     }
-
 }

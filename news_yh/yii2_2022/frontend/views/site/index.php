@@ -1,8 +1,16 @@
 <?php
 
 /* @var $this yii\web\View */
+namespace frontend\controllers;
 
+use frontend\models\ResendVerificationEmailForm;
+use frontend\models\VerifyEmailForm;
+use backend\models\messageshow;
 $this->title = 'My Yii Application';
+$messageshow= new messageshow();
+// $newscom->id=6;
+$sql="select*from messageshow";
+$r=messageshow::findBySql($sql)->asArray()->all();
 ?>
 <div class="site-index">
 
@@ -81,29 +89,37 @@ $this->title = 'My Yii Application';
       <br>
       <div class="col-lg-3">
         <p><img src="statics/img/icons/touch.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p><?php echo $r[0]["name"]."&nbsp&nbsp&nbsp&nbsp".$r[0]["stu_id"]?></p>
+        <p><?php echo $r[0]["major"]?></p>
+        <p><?php echo $r[0]["per_message"]?></p>
+        <p><?php echo $r[0]["per_part"]?></p>
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
         <p><img src="statics/img/icons/spray.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p><?php echo $r[1]["name"]."&nbsp&nbsp&nbsp&nbsp".$r[1]["stu_id"]?></p>
+        <p><?php echo $r[1]["major"]?></p>
+        <p><?php echo $r[1]["per_message"]?></p>
+        <p><?php echo $r[1]["per_part"]?></p>        
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
         <p><img src="statics/img/icons/rocket.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p><?php echo $r[2]["name"]."&nbsp&nbsp&nbsp&nbsp".$r[2]["stu_id"]?></p>
+        <p><?php echo $r[2]["major"]?></p>
+        <p><?php echo $r[2]["per_message"]?></p>
+        <p><?php echo $r[2]["per_part"]?></p>        
       </div>
       <!-- col-lg-3 -->
 
       <div class="col-lg-3">
         <p><img src="statics/img/icons/pencil.svg" alt=""></p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-        
+        <p><?php echo $r[3]["name"]."&nbsp&nbsp&nbsp&nbsp".$r[3]["stu_id"]?></p>
+        <p><?php echo $r[3]["major"]?></p>
+        <p><?php echo $r[3]["per_message"]?></p>
+        <p><?php echo $r[3]["per_part"]?></p>        
       </div>
       <!-- col-lg-3 -->
 

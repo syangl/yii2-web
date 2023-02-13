@@ -1,9 +1,9 @@
 <?php 
-namespace frontend\controllers;
+namespace backend\controllers;
 
-use frontend\models\ResendVerificationEmailForm;
-use frontend\models\VerifyEmailForm;
-use frontend\models\news;
+use backend\models\ResendVerificationEmailForm;
+use backend\models\VerifyEmailForm;
+use backend\models\news;
 
 $news= new news();
 $news->title=$_POST["title"];
