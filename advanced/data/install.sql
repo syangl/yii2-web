@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： 127.0.0.1
--- 生成日期： 2023-02-13 12:49:47
+-- 生成日期： 2023-02-14 03:13:56
 -- 服务器版本： 10.4.11-MariaDB
 -- PHP 版本： 7.4.1
 
@@ -39,7 +39,7 @@ CREATE TABLE `account` (
 --
 
 INSERT INTO `account` (`aid`, `username`, `password`) VALUES
-(1, 'root', 'root'),
+(1, 'root', 'rootroot'),
 (16, 'user3', '333333'),
 (18, 'user2', '222222'),
 (19, 'user4', '444444'),
@@ -94,7 +94,33 @@ INSERT INTO `feeds` (`id`, `username`, `content`, `created_at`) VALUES
 (8, '小明', 'sadfgawfsd', 1676207450),
 (9, '小明', 'lllllllll', 1676207637),
 (10, '小明', 'oooooooooooo', 1676207790),
-(11, '小明', 'yyyyyyyyyyyy', 1676207799);
+(11, '小明', 'yyyyyyyyyyyy', 1676207799),
+(12, 'user1', '你好，世界！', 1676303671);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `messageshow`
+--
+
+CREATE TABLE `messageshow` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `stu_id` varchar(50) DEFAULT NULL,
+  `major` varchar(50) DEFAULT NULL,
+  `per_message` varchar(500) DEFAULT NULL,
+  `per_part` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- 转存表中的数据 `messageshow`
+--
+
+INSERT INTO `messageshow` (`id`, `name`, `stu_id`, `major`, `per_message`, `per_part`) VALUES
+(1, '田翔宇', '2011748', '计算机科学与技术', '当代苦逼计算机人，常年奋战在修bug一线，不是在修bug就是在修bug的路上，但是还有头发。本人的愿望是30岁之前不脱发，顺便挣个小钱。', '负责问答板块页面与数据库的设计，承担结项展示PPT的制作。'),
+(2, '颜欢', '2013459', '信息安全', '本人社恐又佛系....这种留言对我而言真就蛮尴尬的哈哈哈...呵！就酱紫辣', '在团队作业中，我主要负责新闻部分前台后台的界面设计和代码编写，以及团队个人信息的展示以及代码编写~'),
+(3, '刘嗣旸', '2013458', '计算机科学与技术', '这里是不知道说什么的自我介绍，一个努力学习的程序员酱。\r\n喜欢摇滚、朋克，喜欢音乐（纯欣赏，不会演奏，更不会唱跳rap）\r\n二次元捏\r\n', '前台和后台模板嵌套和主页界面搭建（包括团队文档链接和作业下载）、前台用户账号和后台管理员账号系统、后台用户管理模块'),
+(4, '施浩南', '2013350', '计算机科学与技术', '该成员没有留言。(（: >)他自己是这样说的）', '留言板模块相关功能');
 
 -- --------------------------------------------------------
 
@@ -164,7 +190,8 @@ INSERT INTO `newscom` (`id`, `content`, `date`) VALUES
 (52, '斤斤计较', '2023-02-09 09:51:37'),
 (53, '酷酷酷', '2023-02-09 10:02:03'),
 (54, '111111155555', '2023-02-12 11:01:09'),
-(55, 'OS', '2023-02-12 01:25:29');
+(55, 'OS', '2023-02-12 01:25:29'),
+(56, 'hello，world！这是一条评论', '2023-02-13 04:53:05');
 
 -- --------------------------------------------------------
 
@@ -187,7 +214,8 @@ INSERT INTO `newscom2` (`id`, `content`, `date`) VALUES
 (2, '嘎嘎嘎', '2023-02-09 09:57:53'),
 (3, '哈哈哈', '2023-02-09 09:58:09'),
 (4, '酷酷酷酷酷', '2023-02-09 10:02:11'),
-(5, '有趣', '2023-02-11 02:28:19');
+(5, '有趣', '2023-02-11 02:28:19'),
+(6, 'haohaohao', '2023-02-13 02:43:14');
 
 -- --------------------------------------------------------
 
@@ -362,6 +390,12 @@ ALTER TABLE `feeds`
   ADD PRIMARY KEY (`id`);
 
 --
+-- 表的索引 `messageshow`
+--
+ALTER TABLE `messageshow`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- 表的索引 `migration`
 --
 ALTER TABLE `migration`
@@ -450,7 +484,13 @@ ALTER TABLE `back_account`
 -- 使用表AUTO_INCREMENT `feeds`
 --
 ALTER TABLE `feeds`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
+-- 使用表AUTO_INCREMENT `messageshow`
+--
+ALTER TABLE `messageshow`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- 使用表AUTO_INCREMENT `news`
@@ -462,13 +502,13 @@ ALTER TABLE `news`
 -- 使用表AUTO_INCREMENT `newscom`
 --
 ALTER TABLE `newscom`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- 使用表AUTO_INCREMENT `newscom2`
 --
 ALTER TABLE `newscom2`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- 使用表AUTO_INCREMENT `newscom3`
