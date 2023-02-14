@@ -6,6 +6,13 @@ use frontend\models\Feeds;
 use frontend\models\StaticVar;
 use Yii;
 
+/**
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/8
+ * Statement：用户账号登录
+ */
+
 class LoginController extends \yii\web\Controller
 {
     public $username;

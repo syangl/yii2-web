@@ -9,7 +9,10 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * AccountController implements the CRUD actions for Account model.
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/8
+ * Statement：用户账号注册
  */
 class AccountController extends Controller
 {

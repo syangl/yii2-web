@@ -9,7 +9,10 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * FeedsController implements the CRUD actions for Feeds model.
+ * Team：Novas
+ * Author：施浩南
+ * Date：2023/2/11
+ * Statement：留言板功能
  */
 class FeedsController extends Controller
 {

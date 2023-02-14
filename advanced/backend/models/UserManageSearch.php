@@ -7,6 +7,13 @@ use yii\data\ActiveDataProvider;
 use backend\models\UserManage;
 
 /**
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/9
+ * Statement：后台用户管理
+ */
+
+/**
  * UserManageSearch represents the model behind the search form of `backend\models\UserManage`.
  */
 class UserManageSearch extends UserManage

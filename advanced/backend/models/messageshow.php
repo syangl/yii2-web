@@ -5,6 +5,12 @@ use Yii;
 use yii\base\Model;
 use common\models\User;
 use yii\db\ActiveRecord;
+/**
+ * Team：Novas
+ * Author：颜欢
+ * Date：2023/2/13
+ * Statement：后台成员信息更新
+ */
 class messageshow extends ActiveRecord
 {
 

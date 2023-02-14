@@ -7,7 +7,10 @@ use yii\data\ActiveDataProvider;
 use frontend\models\Feeds;
 
 /**
- * FeedsSearch represents the model behind the search form of `frontend\models\Feeds`.
+ * Team：Novas
+ * Author：施浩南
+ * Date：2023/2/11
+ * Statement：留言板表查询
  */
 class FeedsSearch extends Feeds
 {

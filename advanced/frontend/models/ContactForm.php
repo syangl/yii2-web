@@ -6,7 +6,10 @@ use Yii;
 use yii\base\Model;
 
 /**
- * ContactForm is the model behind the contact form.
+ * Team：Novas
+ * Author：
+ * Date：
+ * Statement：
  */
 class ContactForm extends Model
 {

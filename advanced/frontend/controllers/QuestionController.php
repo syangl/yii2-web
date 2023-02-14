@@ -9,6 +9,13 @@ use yii\data\Pagination;
 use app\models\Question;
 use app\models\Trueans;
 
+/**
+ * Team：Novas
+ * Author：田翔宇
+ * Date：2023/2/11
+ * Statement：问答互动
+ */
+
 class QuestionController extends Controller
 {
     public function actionIndex()

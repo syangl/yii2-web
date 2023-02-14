@@ -5,10 +5,13 @@ namespace backend\models;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use backend\models\BackAccount;
-
 /**
- * BackAccountSearch represents the model behind the search form of `backend\models\BackAccount`.
+ * Team：Novas
+ * Author：刘嗣旸 2013458
+ * Date：2023/2/8
+ * Statement：管理员账号查询
  */
+
 class BackAccountSearch extends BackAccount
 {
     /**

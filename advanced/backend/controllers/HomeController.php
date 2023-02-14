@@ -16,6 +16,14 @@ use backend\models\PasswordResetRequestForm;
 use backend\models\ResetPasswordForm;
 use backend\models\SignupForm;
 use backend\models\ContactForm;
+
+/**
+ * Team：Novas
+ * Author：颜欢
+ * Date：2023/2/9
+ * Statement：后台新闻添加管理
+ */
+
 class HomeController extends Controller
 {
    

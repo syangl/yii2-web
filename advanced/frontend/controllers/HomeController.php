@@ -16,6 +16,13 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+
+/**
+ * Team：Novas
+ * Author：颜欢
+ * Date：2023/2/9
+ * Statement：新闻栏功能
+ */
 class HomeController extends Controller
 {
     public function actionNews()

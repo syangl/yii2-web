@@ -1,11 +1,15 @@
 <?php
 namespace frontend\models;
 
-/**
- * 留言表单模型
- */
 use Yii;
 use yii\base\Model;
+
+/**
+ * Team：Novas
+ * Author：施浩南
+ * Date：2023/2/11
+ * Statement：留言表单模型
+ */
 
 class FeedsForm extends Model
 {

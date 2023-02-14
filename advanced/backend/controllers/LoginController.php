@@ -3,6 +3,12 @@
 namespace backend\controllers;
 use backend\models\BackAccount;
 
+/**
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/8
+ * Statement：管理员登录
+ */
 
 class LoginController extends \yii\web\Controller
 {

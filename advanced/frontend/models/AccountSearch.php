@@ -7,7 +7,10 @@ use yii\data\ActiveDataProvider;
 use frontend\models\Account;
 
 /**
- * AccountSearch represents the model behind the search form of `frontend\models\Account`.
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/8
+ * Statement：用户账号查询
  */
 class AccountSearch extends Account
 {

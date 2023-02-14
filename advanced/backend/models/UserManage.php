@@ -5,6 +5,13 @@ namespace backend\models;
 use Yii;
 
 /**
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/9
+ * Statement：后台用户管理
+ */
+
+/**
  * This is the model class for table "{{%account}}".
  *
  * @property int $aid

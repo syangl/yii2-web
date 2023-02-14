@@ -5,6 +5,13 @@ namespace frontend\models;
 use Yii;
 
 /**
+ * Team：Novas
+ * Author：施浩南
+ * Date：2023/2/11
+ * Statement：留言板功能
+ */
+
+/**
  * This is the model class for table "{{%feeds}}".
  *
  * @property int $id

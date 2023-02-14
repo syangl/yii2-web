@@ -5,6 +5,14 @@ namespace frontend\models;
 use common\models\User;
 use Yii;
 
+
+/**
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/8
+ * Statement：用户账号
+ */
+
 /**
  * This is the model class for table "{{%account}}".
  *

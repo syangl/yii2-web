@@ -9,7 +9,10 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * BackAccountController implements the CRUD actions for BackAccount model.
+ * Team：Novas
+ * Author：刘嗣旸 2013458
+ * Date：2023/2/8
+ * Statement：管理员账号的注册
  */
 class BackAccountController extends Controller
 {

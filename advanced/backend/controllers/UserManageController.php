@@ -9,7 +9,10 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * UserManageController implements the CRUD actions for UserManage model.
+ * Team：Novas
+ * Author：刘嗣旸
+ * Date：2023/2/9
+ * Statement：后台用户管理
  */
 class UserManageController extends Controller
 {
