@@ -93,9 +93,9 @@ $r=messageshow::findBySql($sql)->asArray()->all();
         <p><?php echo $r[0]["major"]?></p>
         <p><?php echo $r[0]["per_message"]?></p>
         <p><?php echo $r[0]["per_part"]?></p>
-        <li><a href="/advanced/data/personal/txy/作业1(2011748_田翔宇).docx" download>个人作业1下载</a></li>
-        <li><a href="/advanced/data/personal/txy/作业2(2011748_田翔宇).docx" download>个人作业2下载</a></li>
-        <li><a href="/advanced/data/personal/txy/作业3(2011748_田翔宇).docx" download>个人作业3下载</a></li> 
+        <li><a href="/advanced/data/personal/txy/作业1(2011748_田翔宇).zip" download>个人作业1下载</a></li>
+        <li><a href="/advanced/data/personal/txy/作业2(2011748_田翔宇).zip" download>个人作业2下载</a></li>
+        <li><a href="/advanced/data/personal/txy/作业3(2011748_田翔宇).zip" download>个人作业3下载</a></li> 
       </div>
       <!-- col-lg-3 -->
 
@@ -105,9 +105,9 @@ $r=messageshow::findBySql($sql)->asArray()->all();
         <p><?php echo $r[1]["major"]?></p>
         <p><?php echo $r[1]["per_message"]?></p>
         <p><?php echo $r[1]["per_part"]?></p>
-        <li><a href="/advanced/data/personal/yh/作业1(2013459_颜欢).docx" download>个人作业1下载</a></li>
-        <li><a href="/advanced/data/personal/yh/作业2(2013459_颜欢).docx" download>个人作业2下载</a></li>
-        <li><a href="/advanced/data/personal/yh/作业3(2013459_颜欢).docx" download>个人作业3下载</a></li> 
+        <li><a href="/advanced/data/personal/yh/作业1(2013459_颜欢).zip" download>个人作业1下载</a></li>
+        <li><a href="/advanced/data/personal/yh/作业2(2013459_颜欢).zip" download>个人作业2下载</a></li>
+        <li><a href="/advanced/data/personal/yh/作业3(2013459_颜欢).zip" download>个人作业3下载</a></li> 
       </div>
       <!-- col-lg-3 -->
 
@@ -117,9 +117,9 @@ $r=messageshow::findBySql($sql)->asArray()->all();
         <p><?php echo $r[2]["major"]?></p>
         <p><?php echo $r[2]["per_message"]?></p>
         <p><?php echo $r[2]["per_part"]?></p>   
-        <li><a href="/advanced/data/personal/lsy/作业1(2013458_刘嗣旸).docx" download>个人作业1下载</a></li>
-        <li><a href="/advanced/data/personal/lsy/作业2(2013458_刘嗣旸).docx" download>个人作业2下载</a></li>
-        <li><a href="/advanced/data/personal/lsy/作业3(2013458_刘嗣旸).docx" download>个人作业3下载</a></li>     
+        <li><a href="/advanced/data/personal/lsy/作业1(2013458_刘嗣旸).zip" download>个人作业1下载</a></li>
+        <li><a href="/advanced/data/personal/lsy/作业2(2013458_刘嗣旸).zip" download>个人作业2下载</a></li>
+        <li><a href="/advanced/data/personal/lsy/作业3(2013458_刘嗣旸).zip" download>个人作业3下载</a></li>     
       </div>
       <!-- col-lg-3 -->
 
@@ -129,9 +129,9 @@ $r=messageshow::findBySql($sql)->asArray()->all();
         <p><?php echo $r[3]["major"]?></p>
         <p><?php echo $r[3]["per_message"]?></p>
         <p><?php echo $r[3]["per_part"]?></p>        
-        <li><a href="/advanced/data/personal/shn/作业1(2013350_施浩南).docx" download>个人作业1下载</a></li>
-        <li><a href="/advanced/data/personal/shn/作业2(2013350_施浩南).docx" download>个人作业2下载</a></li>
-        <li><a href="/advanced/data/personal/shn/作业3(2013350_施浩南).docx" download>个人作业3下载</a></li>    
+        <li><a href="/advanced/data/personal/shn/作业1(2013350_施浩南).zip" download>个人作业1下载</a></li>
+        <li><a href="/advanced/data/personal/shn/作业2(2013350_施浩南).zip" download>个人作业2下载</a></li>
+        <li><a href="/advanced/data/personal/shn/作业3(2013350_施浩南).zip" download>个人作业3下载</a></li>    
       </div>
       <!-- col-lg-3 -->
 
