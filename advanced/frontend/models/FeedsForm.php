@@ -37,7 +37,7 @@ class FeedsForm extends Model
     {
         $model=new Feeds();
         $res=$model->find()
-            ->limit(10)
+            ->limit(null)
             ->orderBy(['id'=>SORT_DESC])
             ->asArray()
             ->all();
