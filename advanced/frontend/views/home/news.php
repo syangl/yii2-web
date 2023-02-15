@@ -59,7 +59,7 @@
           <li><a href="/advanced/frontend/web/index.php?r=home/news">News</a></li>
           <li><a href="/advanced/frontend/web/index.php?r=question/index">Questions</a></li>
           <!-- <li><a href="/advanced/frontend/web/index.php?r=site/feed& {{ $model->username }}">Message Board</a></li> -->
-          <li><?=HTML::a('Message Board',['/login/feed', 'username' => $this->title]) ?></li>
+          <!-- <li><?=HTML::a('Message Board',['/login/feed', 'username' => $this->title]) ?></li> -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <b class="caret"></b></a>
             <ul class="dropdown-menu">

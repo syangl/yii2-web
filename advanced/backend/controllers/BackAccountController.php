@@ -74,7 +74,7 @@ class BackAccountController extends Controller
 
         if ($this->request->isPost) {
             if ($model->load($this->request->post()) && $model->save()) {
-                return $this->redirect(['login_please',]);//, 'aid' => $model->aid, 'username' => $model->username
+                return $this->render('login_please');//, 'aid' => $model->aid, 'username' => $model->username
             }
         } else {
             $model->loadDefaultValues();

@@ -24,6 +24,7 @@
                     <a href="javascript:;">退出</a>
                     <dl class="layui-nav-child">
                         <dd><a href="/advanced/frontend/web/">返回前台</a></dd>
+                        <dd><a href="/advanced/backend/web/">Login</a></dd>
                         <dd><a href="/advanced/backend/web/">Logout</a></dd>
                     </dl>
                 </li>
